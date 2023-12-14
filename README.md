@@ -3,26 +3,26 @@ use of HTML, CSS,and Bootstrap to code a simple site
 
 To access the site, enter this url:
 https://yeeechenggg.github.io/Project-Heartcode-group-16/
-&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br><br><br>
 
-HELLOKITTY site example:&nbsp;&nbsp;&nbsp;
+HELLOKITTY site example:<br><br><br>
 
-step1 - copy this url-> https://github.com/anyuzie/heartcode2023.git &nbsp;
-step2 - go to github desktop&nbsp;
-step3 - clone this repo and open in vscode&nbsp;
-&nbsp;
-comments have been left to refer to parts of the code for html, css and bootstrap syntax&nbsp;&nbsp;&nbsp;&nbsp;
+step1 - copy this url-> https://github.com/anyuzie/heartcode2023.git <br>
+step2 - go to github desktop<br>
+step3 - clone this repo and open in vscode<br>
+<br>
+comments have been left to refer to parts of the code for html, css and bootstrap syntax<br><br><br><br>
 
 
-Relevant files to look at:&nbsp;
-[BOOTSTRAP EXAMPLE]&nbsp;
-index-bs.html&nbsp;&nbsp;&nbsp;
+Relevant files to look at:<br>
+<h1>[BOOTSTRAP EXAMPLE]</h1>
+index-bs.html<br>
 
-{nav bar example} &nbsp;
-create.html&nbsp;
-sanrio.html&nbsp;
-testing.html&nbsp;&nbsp;&nbsp;
+<h2>nav bar examples</h2> 
+create.html<br>
+sanrio.html<br>
+testing.html<br><br><br>
 
-[CSS example]&nbsp;
-index-css.html&nbsp;
+[CSS example]<br>
+index-css.html<br>
 
