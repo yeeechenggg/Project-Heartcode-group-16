@@ -3,9 +3,39 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        h1 {
-            padding-top: 100px;
-        }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0;
+        background-color: #003042;
+        background-image: url(new\ bg.png);
+        background-size: 100% auto; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .why {
+        border: 5px #000000 solid;
+        background-color: #ffffffb7;
+        border-radius: 10px;
+        margin: 12px 0;
+    }
+
+    p, li {
+        margin: 12px;
+        font-weight: bold;
+    }
+
+    .more {
+        padding: 20px;
+    }
+
+    .container { 
+        margin-top: 100px;
+    }
     </style>
 </head>
 
@@ -34,22 +64,33 @@
         </div>
     </nav>
 
-    <h1 class="text-center"><u>WHY IS CYBERBULLYING SO SERIOUS?</u></h1>
-    <p>People have almost constant access to their devices, which makes cyberbullying hard to escape and make them feel like they never get a break. Hence, the effects of cyberbullying can be felt very strongly.</p>
-    <p>Cyberbullying can also result in long-lasting emotional impacts, even after the bullying has stopped. As it is done anonymously, cyberbullying is hard to both trace and prevent. The victim also has no idea how many people have seen the derogatory messages or posts.</p>
-    <br><hr>
+    <div class="container">
+        <div class="row">
+            <div class="more col-lg-12 col-mg-12 col-sm-12 why">
+                <h1 class="text-center"><u>WHY IS CYBERBULLYING SO SERIOUS?</u></h1>
+                <p>People have almost constant access to their devices, which makes cyberbullying hard to escape and make them feel like they never get a break. Hence, the effects of cyberbullying can be felt very strongly.</p>
+                <p>Cyberbullying can also result in long-lasting emotional impacts, even after the bullying has stopped. As it is done anonymously, cyberbullying is hard to both trace and prevent. The victim also has no idea how many people have seen the derogatory messages or posts.</p>
+            </div>
+        </div>
+    
 
-    <h1 class="text-center"><u>HOW DOES CYBERBULLYING AFFECT THE MENTAL HEALTH OF VICTIMS?</u></h1>
-    <ul>
-        <li>They may have increased stress and lowered self-esteem.</li>
-        <li>They may develop mental health issues such as anxiety and depression and other stress-related disorders. </li>
-        <li>They may act out violently.</li>
-        <li>They may have difficulty focusing and concentrating, affecting their performance at school or at work.</li>
-        <li>In bad cases, victims may attempt self-harm or try to commit suicide.</li>
-    </ul>
-    <br><hr>
+        <div class="row">
+            <div class="more col-lg-12 col-mg-12 col-sm-12 why">
+                <h1 class="text-center"><u>HOW DOES CYBERBULLYING AFFECT THE MENTAL HEALTH OF VICTIMS?</u></h1>
+                <ul>
+                    <li>They may have increased stress and lowered self-esteem.</li>
+                    <li>They may develop mental health issues such as anxiety and depression and other stress-related disorders. </li>
+                    <li>They may act out violently.</li>
+                    <li>They may have difficulty focusing and concentrating, affecting their performance at school or at work.</li>
+                    <li>In bad cases, victims may attempt self-harm or try to commit suicide.</li>
+                </ul>
+            </div>
+        </div>
+    
 
-    <h2 class="text-center"><u>THERE ARE MANY DIFFERENT TYPES OF CYBERBULLYING, BUT THESE ARE SOME OF THE MOST COMMON ONES:</u></h2>
+        <div class="row">
+            <div class="more col-lg-12 col-mg-12 col-sm-12 why">
+                <h2 class="text-center"><u>THERE ARE MANY DIFFERENT TYPES OF CYBERBULLYING, BUT THESE ARE SOME OF THE MOST COMMON ONES:</u></h2>
     <br>
     <div class="row justify-content-center gap-3">
         <div class="col-md-12 d-flex justify-content-center">
@@ -94,8 +135,10 @@
             </div>
         </div>
     </div>
+            </div>
+        </div>
+    </div>
 
-    <br><br>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
