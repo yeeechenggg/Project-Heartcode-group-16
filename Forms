@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+    /* add code here */
+    *{
+        margin-left: 15px; margin-right: 10px;
+    }
+    h1{
+        border: transparent; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+</style>
+</head>
+
+<!-- add codes into body -->
+<body>
+    
+        <br>
+<br>
+  <div class="container">
+    <div class="bg-info">
+      <div class="row col-6">
+        <div class="text-light">
+          <div class="fst-italic">
+            <h1 class="fw-bold">Is there something online bothering you?</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+<div class="mb-3">
+  <p>Do you need help or know of someone who may need help dealing with Cyberbullying that you would like to share with us?</p>
+  <a href="intro.html">How do I know if i'm being Cyberbullied?</a>
+  <br>
+  <p>Don't worry, what you say will be kept confidential.</p>
+</div>
+
+<!--<form action="" method="get">
+
+    Name: <input type="text" name="name">-->
+
+    <!--<input type="checkbox" id="answer" name="effects[]" value=""> 
+        <br>-->
+    
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We won't share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="name" class="form-label">My name is ...</label>
+        <input class="form-control" id="name">
+        <div id="name" class="form-text">(Optional)</div>
+      </div>
+      </div>
+      <div class="mb-3">
+        <p>Are you writing this for someone else?</p>
+        <input type="radio" id="yes" name="insight"> Yes
+        <br>
+        <input type="radio" id="no" name="insight"> No
+      </div>
+      <hr>
+        <div class="mb-3">
+          <p>What form of Cyberbullying are you/other person experiencing?</p>
+          <input type="checkbox" id="answer1" name="effects[]" value="Impersonation"> Impersonation
+        <br>
+        <input type="checkbox" id="answer2" name="effects[]" value="Outing & Trickery"> Outing & Trickery
+        <br>
+        <input type="checkbox" id="answer3" name="effects[]" value="Online Harrrassment"> Online Harrrassment
+        <br>
+        <input type="checkbox" id="answer4" name="effects[]" value="Exclusion"> Exclusion
+        <br>
+        <input type="checkbox" id="answer5" name="effects[]" value="Cyberstalking"> Cyberstalking
+        <br>
+        <input type="checkbox" id="answer6" name="effects[]" value="Doxxing"> Doxxing
+        <br>
+        </div>
+        <div class="mb-3">
+          Others:
+          <br>
+          <textarea name="message" rows="1" cols="40"></textarea>
+        </div>
+        <hr>
+        <div class="mb-3">
+          <p>How are you/other person being affected by the Cyberbullying?</p>
+          <a href="">What are the effects of Cyberbullying?</a>
+          <br>
+          <input type="checkbox" id="answer1" name="effects[]" value="insert"> Insert 
+        <br>
+        </div>
+        <div class="mb-3">
+          Others:
+          <br>
+          <textarea name="message" rows="1" cols="40"></textarea>
+        </div>
+        <hr>
+        <div class="mb-3">
+          <p>Are you/other person being Cyberbullied in a public or private space?</p>
+          <input type="checkbox" id="answer1" name="effects[]" value="Puplic"> Public 
+          <br>
+          <input type="checkbox" id="answer1" name="effects[]" value="Private"> Private 
+          <div id="name" class="form-text">(Select both options if you're being affected by both)</div>
+        </div>
+        <div class="mb-3">
+          Others:
+          <br>
+          <textarea name="message" rows="1" cols="40"></textarea>
+        </div>
+        <hr>
+        <div class="mb-3">
+          Is there anything else you would like to tell us?
+          <br>
+          <textarea name="message" rows="3" cols="50"></textarea>
+        </div>
+        <hr>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+      
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
