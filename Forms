@@ -25,9 +25,9 @@
     <div class="bg-info">
       <div class="row col-6">
         <div class="text-light">
-          <div class="fst-italic">
+          <!--<div class="fst-italic">-->
             <h1 class="fw-bold">Is there something online bothering you?</h1>
-          </div>
+          <!--</div>-->
         </div>
       </div>
     </div>
