@@ -7,17 +7,90 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <style>
     /* add code here */
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #003042;
+        background-image: url(homepageBg.png);
+        background-size: 100% auto; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    a {
+        text-decoration: none;
+        border: none;
+        color: #000000;
+        border-radius: 5px;
+    }
+
+    a:after {
+        border-radius: 5px;
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        direction: rtl;
+        z-index: -1;
+        box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+        transition: all 0.3s ease;
+    }
+
+    a:hover {
+        color: #ffffff;
+        border-radius: 5px;
+    }
+
+    a:hover:after {
+        left: auto;
+        right: 0;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    a:active {
+        top: 2px;
+        border-radius: 5px;
+    }
+
+    .custom-btn {
+        width: 130px;
+        height: 40px;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-weight: 500;
+        background: #7f0c0c;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow:inset 2px 2px 2px 0px rgba(215, 100, 100, 0.5),
+        7px 7px 20px 0px rgba(215, 100, 100, 0.1),
+        4px 4px 5px 0px rgba(215, 100, 100,.1);
+        outline: none;
+    }
 </style>
 </head>
 <!-- add codes into body -->
 <body>
-    <h1 class="text-center">Swaggg</h1>
-<p>hello im alyssa</p>
-<a href="coding.html">click me</a>
-
-
-
-
+    <div class="jumbotron d-flex align-items-center justify-content-center">
+        <h1 class="text-center text-light">stop cyberbullying today</h1>
+    </div> 
+    <div class="container text-center">
+        <a href="coding.html" class="m-2 custom-btn">About</a>
+        <a href="cyberbullying.html" class="m-2 custom-btn">Impacts</a>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
